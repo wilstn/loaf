@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "LOAF",
+  "version": "1.0",
+  "description": "List Of Acronyms Finder, to help remember what it was.",
+  "icons": {
+    "48": "icons/missing-font.svg"
+  },
+  "browser_action": {
+    "default_icon": "icons/missing-font.svg",
+    "default_title": "LOAF"
+  },
+  "background": {
+    "scripts": ["background_scripts/background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "notifications"
+  ]
+}
